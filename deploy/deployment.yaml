@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: sh32/simple-reverse-proxy
+      - image: sh32/udagram-reverse-proxy
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
